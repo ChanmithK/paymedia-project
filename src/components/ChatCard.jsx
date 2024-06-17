@@ -45,7 +45,7 @@ export const ChatCard = ({ user }) => {
           />
           <textarea
             className="w-full p-2 border border-gray-300 rounded-md resize-none"
-            placeholder="Message"
+            placeholder="Add a message"
             {...register("message", { required: true })}
           />
           <button
